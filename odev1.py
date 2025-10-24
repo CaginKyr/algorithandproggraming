@@ -42,4 +42,5 @@ mod_degeri, mod_frekansi = modke(sayilar)
 print(f"Mod: {mod_degeri} (frekans: {mod_frekansi})")
 
 print("Sayılar ama sıralı:")
-print(*sirali_sayilar[:20] + "...")
+
+print(*sirali_sayilar[:20])
